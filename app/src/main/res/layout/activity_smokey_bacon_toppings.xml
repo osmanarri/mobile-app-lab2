@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmokeyBaconToppings">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:columnCount="3"
+        android:rowCount="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/checkSmokyBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <ImageView
+            android:id="@+id/imgSmokyBacon"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/smoky" />
+
+
+        <TextView
+            android:id="@+id/textViewSmokyBacon"
+            android:layout_width="160dp"
+            android:layout_height="115dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="@string/smoky_maple_bacon" />
+
+        <CheckBox
+            android:id="@+id/checkBaconCrumble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <ImageView
+            android:id="@+id/imgBaconCrumble"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/bacon"/>
+
+        <TextView
+            android:id="@+id/textViewBaconCrumble"
+            android:layout_width="160dp"
+            android:layout_height="115dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="@string/bacon" />
+
+        <CheckBox
+            android:id="@+id/checkSlicedMushrooms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <ImageView
+            android:id="@+id/imgSlicedMushrooms"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/mushrooms" />
+
+        <TextView
+            android:id="@+id/textViewSlicedMushrooms"
+            android:layout_width="160dp"
+            android:layout_height="115dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="@string/mushrooms" />
+
+        <CheckBox
+            android:id="@+id/checkSauce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <ImageView
+            android:id="@+id/imgSauce"
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            app:srcCompat="@drawable/sauce" />
+
+        <TextView
+            android:id="@+id/textViewSauce"
+            android:layout_width="160dp"
+            android:layout_height="115dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="@string/sauce" />
+
+
+    </GridLayout>
+
+
+
+    <Button
+        android:id="@+id/btnGoToDisplayChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Next"
+        android:onClick="goToDisplayChoiceA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

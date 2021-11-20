@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/canadianPizza"
+
+        android:title="@string/Canadian_pizza"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/chickenCaesar"
+
+        android:title="Chicken Caesar"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/hawaiianPizza"
+
+        android:title="Hawaiian Pizza"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/smokeyMapleBacon"
+
+        android:title="@string/Smokey_maple_bacon"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/veggieLover"
+
+        android:title="@string/Veggie_lover_s"
+        app:showAsAction="never"/>
+
+</menu>

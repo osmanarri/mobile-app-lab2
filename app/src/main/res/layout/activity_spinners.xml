@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SpinnersActivity"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:src="@drawable/pizza_size" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="#7E4CDA"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="Select Pizza Size"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinnerPizza"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#ECF0F1"
+        android:backgroundTint="#EDE7E7"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:spinnerMode="dropdown"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7E4CDA"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="30dp"
+        android:text="Select Pizza Dough"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FEF9E7">
+
+        <RadioButton
+            android:id="@+id/radioBtnThin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/thin_crust"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioBtnThick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thick_crust"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request Delivery"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#641E16"
+        android:text="Save"
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#641E16"
+        android:text="Checkout"
+
+        />
+<!--        android:onClick="onSelectedSpinner"-->
+<!--        tools:ignore="UsingOnClickInXml" />-->
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">OsmanTahir_COMP304Sec004_Lab2</string>
+    <string name="pepperoni"> Pepperoni Topping \n - Add $1.50</string>
+    <string name="bacon"> Bacon \n - Add $1.25</string>
+    <string name="mushrooms"> Mushrooms \n - Add $1.15</string>
+    <string name="mozzarella"> Mozzarella \n - Add $0.99</string>
+    <string name="canadian_pizza">canadian_pizza</string>
+
+    <string name="hawaiian_pizza">hawaiian_pizza</string>
+    <string name="smokey_maple_bacon">smokey_maple_bacon</string>
+    <string name="veggie_lover_s">veggie_lover_s</string>
+    <string name="chicken_caesar">chicken_caesar</string>
+
+    <string name="green_pepper"> Green Pepper \n - Add $0.99</string>
+    <string name="Chicken_caesar"> Chicken Caesar \n - Add $1.99</string>
+    <string name="Canadian_pizza">Canadian Pizza</string>
+
+    <string name="hawaiia_pizza">Hawaiia Pizza</string>
+    <string name="Smokey_maple_bacon"> Smokey Maple Bacon </string>
+    <string name="Veggie_lover_s">Veggie Lover\'s</string>
+    <string name="sauce"> Sauce \n - Add $0.99</string>
+    <string name="pineapple"> Pineapple \n - Add $1.25</string>
+    <string name="onion"> Onion \n - Add $0.99</string>
+    <string name="smoky_maple_bacon">Smokey Maple Bacon \n - Add $2.25</string>
+    <string name="Olives"> Olives  \n - Add $0.99</string>
+
+    <string name="thin_crust">Thin Crust</string>
+    <string name="thick_crust">Thick Crust</string>
+
+
+    <string-array name="pizzaSize">
+
+        <item>Chose Pizza Size</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+
+    </string-array>
+</resources>
